@@ -1,0 +1,326 @@
+:root {
+    --bg-color: #0c0814;
+    --header-footer-purple: #4c1175;
+    --accent-purple: #8e071f;
+    --bright-purple: #a824e3;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- ВЕРХ (HEADER) --- */
+header {
+    background-color: var(--header-footer-purple);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 3px solid var(--bright-purple);
+    background-color: #1a0057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-item {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+.feedback-button {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 52px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+/* --- ADVANTAGES SECTION --- */
+.advantages-section {
+    background-color: #120b22;
+    width: 75%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid var(--bright-purple);
+    box-shadow: 0 0 20px rgba(168, 36, 227, 0.35);
+}
+
+.advantages-section h2 {
+    color: var(--text-color);
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.advantages-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.advantage-item1, .advantage-item2, .advantage-item3 {
+    color: #e0e0e0;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* --- CALL TO ACTION --- */
+.call-to-action {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.cta-title {
+    font-size: 48px;
+    margin: 0 0 10px 0;
+}
+
+.cta-subtitle {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+    color: #cccccc;
+}
+
+.english-button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* --- НИЗ (FOOTER) --- */
+footer {
+    background-color: var(--header-footer-purple);
+    padding: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-small-text {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0;
+}
+:root {
+    --bg-color: #0c0814;
+    --header-footer-purple: #4c1175;
+    --accent-purple: #8e071f;
+    --bright-purple: #a824e3;
+    --text-color: #ffffff;
+}
+
+ h3 {
+     text-align: center;
+ }
+ 
+.foot {
+     text-align: center;
+ }
+
+ p {
+     text-align: center;
+ }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.povtorennia {
+    text-align: left;    
+}
+
+/* --- ВЕРХ (HEADER) --- */
+header {
+    background-color: var(--header-footer-purple);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    border: 3px solid var(--bright-purple);
+    background-color: #1a0057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-item {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+.feedback-button {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.advantages-grid {
+    background-color: #120b22;
+    width: 75%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid var(--bright-purple);
+    box-shadow: 0 0 20px rgba(168, 36, 227, 0.35);
+}
+
+#answer-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+   
+}
+
+.answer-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.hide {
+    display: none;
+}
+
+.corrrect {
+    background-color: #acfab4;
+    border-color: green;
+    color: black;
+}
+
+.wrong {
+   background-color: #fccfcf;
+   border-color: red; 
+   color: black;
+}
+
+#start-btn,
+#restart-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8f6aa6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    top: 20px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: #ddb5f5;
+}
+
+footer {
+    background-color: var(--header-footer-purple);
+    padding: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-small-text {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0;
+}
+
+.app-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 30px auto;
+}
